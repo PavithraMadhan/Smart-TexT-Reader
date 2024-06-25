@@ -1,4 +1,5 @@
 """
+Authors: Amulya Mallola and Pavithra M G
 
 This script continuously captures frames from a webcam video stream, processes each frame using Optical Character Recognition (OCR) to detect and extract text, and then displays the processed frame with bounding boxes around the detected text. The extracted text is also saved to a text file in a specified directory. Additionally, the script converts the extracted text into speech using Google Text-to-Speech (gTTS) library and saves the generated speech as an MP3 file, which is played back using the system's default media player. The script runs until the user presses 'q' to quit the video stream.
 
